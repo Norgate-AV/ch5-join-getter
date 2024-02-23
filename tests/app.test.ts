@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { getCh5ReservedJoins } from "../dist/index.js";
+import { getCh5ReservedJoins } from "../src/app.js";
 import { assertJoinCollection } from "./helpers.js";
 
 describe("getCh5ReservedJoins", () => {
