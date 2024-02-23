@@ -1,12 +1,15 @@
 {
-    "name": "ch5-join-getter",
+    "name": "@norgate-av/ch5-join-getter",
     "displayName": "ch5-join-getter",
-    "description": "",
+    "description": "A simple package to get the most up-to-date reserved join data from the ch5 site",
     "version": "0.0.0",
     "license": "MIT",
-    "main": "./dist/app.js",
-    "types": "./dist/app.d.ts",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
     "type": "module",
+    "files": [
+        "dist"
+    ],
     "repository": {
         "type": "git",
         "url": ""
@@ -22,7 +25,7 @@
         "prebuild": "pnpm clean",
         "build": "tsup",
         "prestart": "pnpm lint && pnpm build",
-        "start": "cross-env NODE_ENV=production node dist/app.js",
+        "start": "cross-env NODE_ENV=production node dist/index.js",
         "dev": "nodemon --exec vite-node src/app.ts",
         "test": "vitest",
         "prepare": "husky",
