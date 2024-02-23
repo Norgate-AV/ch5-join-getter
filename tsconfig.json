@@ -15,6 +15,7 @@
         "resolveJsonModule": true,
         "allowSyntheticDefaultImports": true,
         "types": ["node"],
+        "typeRoots": ["src/@types", "node_modules/@types"],
         "noEmit": true
     },
     "include": ["src/**/*", "tests/**/*", "vitest.config.ts"]
