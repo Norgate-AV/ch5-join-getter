@@ -2,7 +2,7 @@
     "name": "@norgate-av/ch5-join-getter",
     "displayName": "ch5-join-getter",
     "description": "A simple package to get the most up-to-date reserved join data from the ch5 site",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "license": "MIT",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
