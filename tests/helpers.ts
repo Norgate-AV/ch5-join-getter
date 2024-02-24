@@ -6,6 +6,11 @@ export function assertJoinCollection(object: { [key: string]: string }): void {
 
     for (const [key, value] of Object.entries(object)) {
         expect(key).toEqual(expect.any(String));
-        expect(value).toEqual(key.replace(pattern, replace));
+        expect(value).toEqual(
+            key
+                .replace(pattern, replace)
+                .replace(/Star$/g, "*")
+                .replace(/Hash$/g, "/#"),
+        );
     }
 }
