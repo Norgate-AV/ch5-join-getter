@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.1](https://github.com/Norgate-AV/ch5-join-getter/compare/v1.0.0...v1.0.1) (2024-02-24)
+
+### 🐛 Bug Fixes
+
+-   replace special chars with word equivalent ([102fa0f](https://github.com/Norgate-AV/ch5-join-getter/commit/102fa0f12790355bb79badc364fbd00c1b1c0287))
+
 ## 1.0.0 (2024-02-23)
 
 ### 🌟 Features
