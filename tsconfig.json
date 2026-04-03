@@ -16,6 +16,7 @@
         "allowSyntheticDefaultImports": true,
         "types": ["node"],
         "typeRoots": ["src/@types", "node_modules/@types"],
+        "ignoreDeprecations": "6.0",
         "noEmit": true
     },
     "include": ["src/**/*", "tests/**/*", "vitest.config.ts"]
