@@ -23,11 +23,11 @@ This package is intended to be used as a test helper for [crestron-ch5-helper](h
 
 ## Contents 📖
 
--   [Installation :zap:](#installation-zap)
--   [Usage :rocket:](#usage-rocket)
--   [Team :soccer:](#team-soccer)
--   [Contributors :sparkles:](#contributors-sparkles)
--   [LICENSE :balance_scale:](#license-balance_scale)
+- [Installation :zap:](#installation-zap)
+- [Usage :rocket:](#usage-rocket)
+- [Team :soccer:](#team-soccer)
+- [Contributors :sparkles:](#contributors-sparkles)
+- [LICENSE :balance_scale:](#license-balance_scale)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -47,12 +47,12 @@ pnpm add -D @norgate-av/ch5-join-getter
 
 ## Usage :rocket:
 
-The package exports a single function `getReservedJoinData` which returns a promise that resolves to the latest reserved join data.
+The package exports a single function `getCh5ReservedJoins` which returns a promise that resolves to the latest reserved join data.
 
 ```javascript
-import { getReservedJoinData } from "@norgate-av/ch5-join-getter";
+import { getCh5ReservedJoins } from "@norgate-av/ch5-join-getter";
 
-const data = await getReservedJoinData();
+const data = await getCh5ReservedJoins();
 
 console.log(data.ReservedJoin.Analog.Event);
 console.log(data.ReservedJoin.Digital.Event);
